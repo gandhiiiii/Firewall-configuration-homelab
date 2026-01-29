@@ -24,17 +24,17 @@ https://github.com/user-attachments/assets/90406503-0de3-4ba0-9ac3-62727e46e56e
 ## Commands Used 
 
 # Check UFW status sudo 
-ufw status verbose 
+- ufw status verbose 
 
 # Set default policies 
-sudo ufw default deny incoming 
-sudo ufw default allow outgoing 
+- sudo ufw default deny incoming 
+- sudo ufw default allow outgoing 
 
 # Enable firewall 
-sudo ufw enable 
+- sudo ufw enable 
 
 # Allow SSH 
-sudo ufw allow 22/tcp 
+- sudo ufw allow 22/tcp 
 
 # Verify SSH service 
-sudo systemctl status ssh
+- sudo systemctl status ssh
