@@ -1,2 +1,7 @@
 # Firewall-configuration-homelab
-Set up and tested a firewall on Ubuntu 22.04 using UFW. Locked down incoming traffic while keeping SSH access open, and verified everything in a VirtualBox lab
+
+## Overview
+This project demonstrates host-based firewall configuration using UFW on Ubuntu 22.04 LTS.
+The goal is to enforce network security by applying a default-deny inbound policy while allowing essential services, verified through controlled testing.
+
+## Video Demonstration
